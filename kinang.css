@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tổng thể */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color:black;   /* nền đen */
+  color: white;              /* chữ trắng xám dễ đọc */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Tiêu đề chính */
+#header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: whitesmoke;              /* điểm nhấn xanh ngọc nhẹ */
+}
+
+/* Tiêu đề */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-left: 4px solid aqua;
+  padding-left: 10px;
+}
+
+/* kỹ năng */
+.ky_nang_lap_trinh
+{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ky_nang_mem {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Danh sách */
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* Bản quyền */
+#banquyen {
+  text-align: center;
+  margin-top: 30px;
+  color: cyan;
+  font-size: 14px;
+}
